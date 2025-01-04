@@ -7,56 +7,117 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Interactive Question Paper</h1>
+    <p>Test your knowledge with this fun and interactive quiz! Select the correct answer for each question.</p>
+  </header>
 
-  <div class="question">
-    <h3>1. What is the capital of France?</h3>
-    <ul class="options">
-      <li onclick="checkAnswer(this, 'Paris')">Berlin</li>
-      <li onclick="checkAnswer(this, 'Paris')">Madrid</li>
-      <li onclick="checkAnswer(this, 'Paris')">Paris</li>
-      <li onclick="checkAnswer(this, 'Paris')">Rome</li>
-    </ul>
-  </div>
+  <main>
+    <div class="question">
+      <h3>1. What is the capital of France?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'Paris')">Berlin</li>
+        <li onclick="checkAnswer(this, 'Paris')">Madrid</li>
+        <li onclick="checkAnswer(this, 'Paris')">Paris</li>
+        <li onclick="checkAnswer(this, 'Paris')">Rome</li>
+      </ul>
+    </div>
 
-  <div class="question">
-    <h3>2. What is 2 + 2?</h3>
-    <ul class="options">
-      <li onclick="checkAnswer(this, '4')">3</li>
-      <li onclick="checkAnswer(this, '4')">4</li>
-      <li onclick="checkAnswer(this, '4')">5</li>
-      <li onclick="checkAnswer(this, '4')">6</li>
-    </ul>
-  </div>
-  <div class="question">
-    <h3>3. What is the capital of France?</h3>
-    <ul class="options">
-      <li onclick="checkAnswer(this, 'Paris')">Berlin</li>
-      <li onclick="checkAnswer(this, 'Paris')">Madrid</li>
-      <li onclick="checkAnswer(this, 'Paris')">Paris</li>
-      <li onclick="checkAnswer(this, 'Paris')">Rome</li>
-    </ul>
-  </div>
-  <div class="question">
-    <h3>4. What is the capital of France?</h3>
-    <ul class="options">
-      <li onclick="checkAnswer(this, 'Paris')">Berlin</li>
-      <li onclick="checkAnswer(this, 'Paris')">Madrid</li>
-      <li onclick="checkAnswer(this, 'Paris')">Paris</li>
-      <li onclick="checkAnswer(this, 'Paris')">Rome</li>
-    </ul>
-  </div>
-  <div class="question">
-    <h3>5. What is the capital of France?</h3>
-    <ul class="options">
-      <li onclick="checkAnswer(this, 'Paris')">Berlin</li>
-      <li onclick="checkAnswer(this, 'Paris')">Madrid</li>
-      <li onclick="checkAnswer(this, 'Paris')">Paris</li>
-      <li onclick="checkAnswer(this, 'Paris')">Rome</li>
-    </ul>
-  </div>
+    <div class="question">
+      <h3>2. What is 2 + 2?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, '4')">3</li>
+        <li onclick="checkAnswer(this, '4')">4</li>
+        <li onclick="checkAnswer(this, '4')">5</li>
+        <li onclick="checkAnswer(this, '4')">6</li>
+      </ul>
+    </div>
 
-   <script src="script.js"></script>
+    <div class="question">
+      <h3>3. Which planet is known as the Red Planet?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'Mars')">Venus</li>
+        <li onclick="checkAnswer(this, 'Mars')">Mars</li>
+        <li onclick="checkAnswer(this, 'Mars')">Jupiter</li>
+        <li onclick="checkAnswer(this, 'Mars')">Saturn</li>
+      </ul>
+    </div>
 
+    <div class="question">
+      <h3>4. Who wrote 'Romeo and Juliet'?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'Shakespeare')">Charles Dickens</li>
+        <li onclick="checkAnswer(this, 'Shakespeare')">Shakespeare</li>
+        <li onclick="checkAnswer(this, 'Shakespeare')">Mark Twain</li>
+        <li onclick="checkAnswer(this, 'Shakespeare')">Jane Austen</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>5. What is the square root of 64?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, '8')">6</li>
+        <li onclick="checkAnswer(this, '8')">7</li>
+        <li onclick="checkAnswer(this, '8')">8</li>
+        <li onclick="checkAnswer(this, '8')">9</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>6. What is the chemical symbol for water?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'H2O')">O2</li>
+        <li onclick="checkAnswer(this, 'H2O')">CO2</li>
+        <li onclick="checkAnswer(this, 'H2O')">H2O</li>
+        <li onclick="checkAnswer(this, 'H2O')">CH4</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>7. What is the largest planet in our solar system?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'Jupiter')">Earth</li>
+        <li onclick="checkAnswer(this, 'Jupiter')">Jupiter</li>
+        <li onclick="checkAnswer(this, 'Jupiter')">Saturn</li>
+        <li onclick="checkAnswer(this, 'Jupiter')">Mars</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>8. What year did World War II end?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, '1945')">1940</li>
+        <li onclick="checkAnswer(this, '1945')">1945</li>
+        <li onclick="checkAnswer(this, '1945')">1950</li>
+        <li onclick="checkAnswer(this, '1945')">1939</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>9. Who painted the Mona Lisa?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, 'Leonardo da Vinci')">Vincent van Gogh</li>
+        <li onclick="checkAnswer(this, 'Leonardo da Vinci')">Pablo Picasso</li>
+        <li onclick="checkAnswer(this, 'Leonardo da Vinci')">Leonardo da Vinci</li>
+        <li onclick="checkAnswer(this, 'Leonardo da Vinci')">Claude Monet</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h3>10. What is the boiling point of water in degrees Celsius?</h3>
+      <ul class="options">
+        <li onclick="checkAnswer(this, '100')">50</li>
+        <li onclick="checkAnswer(this, '100')">100</li>
+        <li onclick="checkAnswer(this, '100')">150</li>
+        <li onclick="checkAnswer(this, '100')">200</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Quiz App. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
- 
